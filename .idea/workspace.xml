@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90c2d0b-55bd-403f-993a-301fa25009c6" name="Changes" comment="&quot;passed grosspay tests&quot;">
+    <list default="true" id="a90c2d0b-55bd-403f-993a-301fa25009c6" name="Changes" comment="&quot;passed netPay tests&quot;">
       <change beforePath="$PROJECT_DIR$/src/main/java/rocks/zipcode/PayDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcode/PayDay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.PayDayTest.executor": "Run",
     "TestNG.PayDayTest.test1deductTax.executor": "Run",
+    "TestNG.PayDayTest.test1formatDollars.executor": "Run",
+    "TestNG.PayDayTest.test1netPay.executor": "Run",
+    "TestNG.PayDayTest.test2deductTax.executor": "Run",
+    "TestNG.PayDayTest.test2netPay.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
@@ -74,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test1deductTax" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test1formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +88,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test1deductTax" />
+      <option name="METHOD_NAME" value="test1formatDollars" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayDayTest.test2deductTax" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PayDayTest.test2formatDollars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PayDay" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rocks.zipcode" />
       <option name="MAIN_CLASS_NAME" value="rocks.zipcode.PayDayTest" />
-      <option name="METHOD_NAME" value="test2deductTax" />
+      <option name="METHOD_NAME" value="test2formatDollars" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,19 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.PayDayTest.test1deductTax" />
+      <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test1netPay" />
-      <item itemvalue="TestNG.PayDayTest.test2deductTax" />
+      <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
       <item itemvalue="TestNG.PayDayTest.test2netPay" />
       <item itemvalue="TestNG.PayDayTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PayDayTest" />
+        <item itemvalue="TestNG.PayDayTest.test2formatDollars" />
+        <item itemvalue="TestNG.PayDayTest.test1formatDollars" />
         <item itemvalue="TestNG.PayDayTest.test2netPay" />
         <item itemvalue="TestNG.PayDayTest.test1netPay" />
-        <item itemvalue="TestNG.PayDayTest.test2deductTax" />
-        <item itemvalue="TestNG.PayDayTest.test1deductTax" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740769358909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;passed deductTax tests&quot;">
+      <option name="closed" value="true" />
+      <created>1740769661231</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740769661231</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;passed netPay tests&quot;">
+      <option name="closed" value="true" />
+      <created>1740769770983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740769770983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +217,19 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;passed grosspay tests&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;passed grosspay tests&quot;" />
+    <MESSAGE value="&quot;passed deductTax tests&quot;" />
+    <MESSAGE value="&quot;passed netPay tests&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;passed netPay tests&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/rocks/zipcode/PayDayTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
