@@ -65,7 +65,7 @@ public class PayDay {
         return gross * taxRate;
     }
     public double netPay(double gross, double deduction) {
-        return -1.0;
+        return gross - deduction;
     }
 
     /*
